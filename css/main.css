@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  display:inline-block;
+  margin: `0 0 1rem;
+  max-width: 20em;
+  padding: .4em .75em .5em;
+  background-color: #cabdb2;
+  border: 2px solid #785439;
+  border-radius: 8px;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  text-align: left;
+  font-family: "Georgia" serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #785439;
+  font-family: "Dosis", sans-serif;
+}
+
+.link-card {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.link-card dl {
+  margin-bottom:`0 0 1rem;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 6em;
+  font-style: Georgia;
+}
+
+.link-card dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
+.link-card div {
+  text-align: center;
+}
+
+.link-card a {
+  display:inline-block;
+  padding: .75em .5em;
+  background-color: #785439;
+  border-radius: 3px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+}
