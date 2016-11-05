@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
   display:inline-block;
-  margin: `0 0 1rem;
+  margin: 0 0 1rem;
   max-width: 20em;
   padding: .4em .75em .5em;
   background-color: #cabdb2;
-  border: 2px solid #785439;
+  border: 3px solid #785439;
   border-radius: 8px;
   text-align: center;
 }
@@ -16,12 +16,12 @@ html {
 
 header {
   text-align: left;
-  font-family: "Georgia" serif;
+  font-family: "Georgia", serif;
 }
 
 h1 {
   font-size: 1.5rem;
-  color: #785439;
+  color: #4f250e;
   font-family: "Dosis", sans-serif;
 }
 
@@ -33,13 +33,14 @@ h1 {
 }
 
 .link-card dl {
-  margin-bottom:`0 0 1rem;
+  margin-bottom:0 0 1rem;
+
 }
 
 .link-card dt {
   display: inline-block;
   width: 6em;
-  font-style: Georgia;
+  font-style: "Georgia" , serif;
 }
 
 .link-card dd {
